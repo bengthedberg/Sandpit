@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{0DAC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topshelf.Basic.Sample", "Topshelf.Basic.Sample\Topshelf.Basic.Sample.csproj", "{C089FD04-5A5E-43C4-97B1-2AE0F49BFE60}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{16F29655-EDDE-407E-978A-C469A68FC639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigInjector.AutoFac.Basic.Sample", "ConfigInjector.AutoFac.Basic.Sample\ConfigInjector.AutoFac.Basic.Sample.csproj", "{24894555-4457-4377-AED3-8BB08036B954}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{C089FD04-5A5E-43C4-97B1-2AE0F49BFE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C089FD04-5A5E-43C4-97B1-2AE0F49BFE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C089FD04-5A5E-43C4-97B1-2AE0F49BFE60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24894555-4457-4377-AED3-8BB08036B954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24894555-4457-4377-AED3-8BB08036B954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24894555-4457-4377-AED3-8BB08036B954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24894555-4457-4377-AED3-8BB08036B954}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{66CC6598-83DB-4287-B4C5-099EA7D532DC} = {E339B283-BFB4-4E57-8804-B878F9BE918E}
 		{C089FD04-5A5E-43C4-97B1-2AE0F49BFE60} = {0DAC16C5-5CA9-4755-B850-DE0D07366E69}
+		{24894555-4457-4377-AED3-8BB08036B954} = {16F29655-EDDE-407E-978A-C469A68FC639}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B367552-5440-4770-A721-24948DD3EE10}
