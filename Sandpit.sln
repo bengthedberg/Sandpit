@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inversion of Control", "Inversion of Control", "{E339B283-BFB4-4E57-8804-B878F9BE918E}"
 EndProject
@@ -14,6 +14,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{16F29655-EDDE-407E-978A-C469A68FC639}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigInjector.AutoFac.Basic.Sample", "ConfigInjector.AutoFac.Basic.Sample\ConfigInjector.AutoFac.Basic.Sample.csproj", "{24894555-4457-4377-AED3-8BB08036B954}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pattern", "Pattern", "{7F2D9C05-0E50-4BF1-B91D-F9D8260265A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.Repository.Sample", "Pattern.Repository.Sample\Pattern.Repository.Sample.csproj", "{84746D23-3434-4E4A-BB99-CE8B30116AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.Repository.Sample.Domain", "Pattern.Repository.Sample.Domain\Pattern.Repository.Sample.Domain.csproj", "{8C198BC0-E7F5-4EB2-8D56-837E2D07B2BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.Repository.Sample.Persistence", "Pattern.Repository.Sample.Persistence\Pattern.Repository.Sample.Persistence.csproj", "{1026AB0E-36DE-4943-9EA7-E39D62B70887}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,18 @@ Global
 		{24894555-4457-4377-AED3-8BB08036B954}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24894555-4457-4377-AED3-8BB08036B954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24894555-4457-4377-AED3-8BB08036B954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84746D23-3434-4E4A-BB99-CE8B30116AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84746D23-3434-4E4A-BB99-CE8B30116AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84746D23-3434-4E4A-BB99-CE8B30116AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84746D23-3434-4E4A-BB99-CE8B30116AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C198BC0-E7F5-4EB2-8D56-837E2D07B2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C198BC0-E7F5-4EB2-8D56-837E2D07B2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C198BC0-E7F5-4EB2-8D56-837E2D07B2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C198BC0-E7F5-4EB2-8D56-837E2D07B2BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1026AB0E-36DE-4943-9EA7-E39D62B70887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1026AB0E-36DE-4943-9EA7-E39D62B70887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1026AB0E-36DE-4943-9EA7-E39D62B70887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1026AB0E-36DE-4943-9EA7-E39D62B70887}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +61,9 @@ Global
 		{66CC6598-83DB-4287-B4C5-099EA7D532DC} = {E339B283-BFB4-4E57-8804-B878F9BE918E}
 		{C089FD04-5A5E-43C4-97B1-2AE0F49BFE60} = {0DAC16C5-5CA9-4755-B850-DE0D07366E69}
 		{24894555-4457-4377-AED3-8BB08036B954} = {16F29655-EDDE-407E-978A-C469A68FC639}
+		{84746D23-3434-4E4A-BB99-CE8B30116AB2} = {7F2D9C05-0E50-4BF1-B91D-F9D8260265A3}
+		{8C198BC0-E7F5-4EB2-8D56-837E2D07B2BC} = {7F2D9C05-0E50-4BF1-B91D-F9D8260265A3}
+		{1026AB0E-36DE-4943-9EA7-E39D62B70887} = {7F2D9C05-0E50-4BF1-B91D-F9D8260265A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B367552-5440-4770-A721-24948DD3EE10}
